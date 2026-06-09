@@ -1,4 +1,17 @@
-package PACKAGE_NAME;
+public enum LogLevel {
+    CRITICAL("[CRITICAL]"),
+    ERROR("[ERROR]"),
+    WARNING("[WARNING]"),
+    INFO("[INFO]"),
+    DEBUG("[DEBUG]");
 
-public class LogLevel {
+    private final String keyword;
+
+    LogLevel(String keyword) {
+        this.keyword = keyword;
+    }
+
+    public String getKeyword() {
+        return keyword;
+    }
 }
