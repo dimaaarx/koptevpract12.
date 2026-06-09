@@ -1,0 +1,6 @@
+1 2026-06-09T23:10:45.467533900 [INFO] AuthModule User opened site
+2 2026-06-09T23:10:45.475156700 [ERROR] PaymentModule Payment failed
+3 2026-06-09T23:10:45.475156700 [DEBUG] DebugModule Debug message
+4 2026-06-09T23:10:45.475156700 [CRITICAL] ServerModule Server is down
+5 2026-06-09T23:10:45.475156700 [WARNING] AuthModule Too many login attempts
+6 2026-06-09T23:10:45.475156700 [ERROR] DatabaseModule Cannot connect to database
